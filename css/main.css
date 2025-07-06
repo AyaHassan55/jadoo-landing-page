@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #222;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 10%;
+    position: relative;
+    z-index: 1000;
+}
+.navbar img{
+    width: 103.7px;
+    height: 30.68px;
+}
+.nav-item{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav-item a {
+    margin: 0 0 0 72px;
+    text-decoration: none;
+    color: #333;
+    font-family: 'Google Sans',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.lang{
+    background: transparent;
+    border: none;
+    margin-left: 10px;
+}
+.nav-item .login{
+    margin-left: 24px;
+}
+.nav-item .login,
+.nav-item  .signup{
+    width: 92.04px;
+    height: 36px;
+    outline-style: none;
+    background: transparent;
+    border-color: transparent;
+}
+.nav-item .signup:hover,
+.nav-item  .login:hover {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+/* End Header */
+
+/* Start Hero Section */
+.hero-content{
+    width: 40%;
+    height: 689.5px;
+    display: flex;
+    position: relative;
+}
+.hero-content .description{
+    /* width: 568.5px;
+    height: 482.78px; */
+    /* position: absolute; */
+    min-width: 118%;
+    padding-top: 158.82px;
+    padding-left: 175.55px;
+    position: relative;
+    background-image: url("images/Ellipse 8.png");
+}
+.hero-content .description h4{
+    color: #DF6951;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: -36px;
+}
+.hero-content .description h1{
+    color: #181E4B;
+    font-size: 67.5px;;
+    font-weight: 700;
+    line-height: 80.31px;
+    /* letter-spacing: -4%; */
+    
+
+}
+.hero-content .description p{
+    color: #5E6282;
+    font-weight: 500;
+    line-height: 27.07px;
+    margin-top: -21px;
+}
+.hero-content .description h1 span::after{
+    content: url('images/Decore (2).png');
+    position: absolute;
+}
+.cta .btn-first{
+    background-color: #F1A501;
+    width: 153.40594482421875px;
+    height: 54.14327621459961px;
+    border: none;
+    border-radius: 9.2px;
+    margin: 26px 67px 0 0;
+
+}
+.cta{
+    display: flex;
+    align-items: center;
+    gap: 10;
+}
+.cta .btn-sec{
+    display: flex; 
+    align-items: center;
+    gap: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.cta .btn-sec img{
+    width: 60px;
+    height: 60px;
+}
+
+.cta .btn-sec span{
+    font-size: 16px;
+    color: #686D77;
+}
+/* .cta .btn-sec i{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #DF6951;
+    color: #FFF;
+    transform: translate(-50%, -50%);
+} */
+
+.hero-content .hero-photo .traveller{
+    width: 600px;
+    height: 600px;
+    position: relative;
+    z-index: 1001;
+    top: 61px;
+    left: -35px;
+}
+.bg-image{
+    position: absolute;
+    top: -77px;
+    right: -872px;
+}
+.plane-top{
+    position: absolute;
+    top: 91px;
+    right: -283px;
+}
+.plane-bottom{
+    position: absolute;
+    top: 115px;
+    right: -703px;
+
+}
+/* End Hero Section */
