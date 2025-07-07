@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    
     background-color: #fff;
     color: #222;
     height: 100vh;
@@ -17,6 +17,7 @@ body {
     padding: 20px 10%;
     position: relative;
     z-index: 1000;
+    font-family: 'Roboto', sans-serif;
 }
 .navbar img{
     width: 103.7px;
@@ -31,7 +32,7 @@ body {
     margin: 0 0 0 72px;
     text-decoration: none;
     color: #333;
-    font-family: 'Google Sans',sans-serif;
+    /* font-family: 'Google Sans',sans-serif; */
     font-weight: 500;
     font-size: 16px;
 }
@@ -66,14 +67,16 @@ body {
     position: relative;
 }
 .hero-content .description{
-    /* width: 568.5px;
-    height: 482.78px; */
-    /* position: absolute; */
+    
     min-width: 118%;
     padding-top: 158.82px;
     padding-left: 175.55px;
     position: relative;
-    background-image: url("images/Ellipse 8.png");
+}
+.hero-content .description .elli-decore{
+    position: absolute;
+    top: -75.99px;
+    left: -10px;
 }
 .hero-content .description h4{
     color: #DF6951;
@@ -81,13 +84,17 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: -36px;
+    font-family: 'Poppins', sans-serif;
 }
 .hero-content .description h1{
+    font-family: 'Volkhov',serif;
     color: #181E4B;
     font-size: 67.5px;;
     font-weight: 700;
     line-height: 80.31px;
-    /* letter-spacing: -4%; */
+    letter-spacing: -1px;
+    position: relative;
+    z-index: 1000;
     
 
 }
@@ -96,13 +103,16 @@ body {
     font-weight: 500;
     line-height: 27.07px;
     margin-top: -21px;
+    font-family: 'Poppins', sans-serif;
 }
-.hero-content .description h1 span::after{
-    content: url('images/Decore (2).png');
+.hero-content .description .decore-enjoy{
     position: absolute;
+    top: 259px;
+    right: -101px;
 }
 .cta .btn-first{
     background-color: #F1A501;
+    color: white;
     width: 153.40594482421875px;
     height: 54.14327621459961px;
     border: none;
@@ -111,6 +121,7 @@ body {
 
 }
 .cta{
+    font-family: 'Poppins', sans-serif;
     display: flex;
     align-items: center;
     gap: 10;
@@ -126,20 +137,14 @@ body {
 .cta .btn-sec img{
     width: 60px;
     height: 60px;
+    margin: 31px -11px 0 0;
 }
 
 .cta .btn-sec span{
     font-size: 16px;
     color: #686D77;
+    margin-top: 22px;
 }
-/* .cta .btn-sec i{
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    background: #DF6951;
-    color: #FFF;
-    transform: translate(-50%, -50%);
-} */
 
 .hero-content .hero-photo .traveller{
     width: 600px;
