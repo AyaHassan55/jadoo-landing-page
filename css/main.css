@@ -5,7 +5,7 @@
 }
 
 body {
-    
+   
     background-color: #fff;
     color: #222;
     height: 100vh;
@@ -174,7 +174,7 @@ body {
 
 /* Start Service section */
 .services{
-    padding-left: 175.55px;
+    padding-left: 175.55px; 
     padding-right: 175.55px;
     position: relative;
     z-index: 1001;
@@ -277,7 +277,7 @@ body {
     transition: all 0.3s ease;
 } */
 
-/* ده الخلفية والشكل */
+
 /* .services .categories .category::before {
     content: '';
     position: absolute;
@@ -353,8 +353,7 @@ body {
 
 /* start destination */
 .destinations{
-    padding-left: 175.55px;
-    padding-right: 175.55px;
+    
     position: relative;
 }
 .destinations h6{
@@ -435,3 +434,171 @@ body {
     z-index: -1;
 }
 /* end destination */
+
+/* Start book trip */
+.book-trip{
+    padding-left: 175.55px;
+    padding-right: 175.55px;
+    display: flex;
+    margin-top: 130px;
+    gap: 50px;
+    position: relative;
+}
+.book-trip .instruction{
+    max-width: 41%;
+}
+.book-trip .instruction h6{
+    padding-top: 65px;
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.book-trip .instruction h2{
+    padding-bottom: 0px;
+    padding-top: 14px;
+    padding-right: 24px;
+    font-size: 50px;
+    font-family: 'Volkhov';
+    font-weight: 700;
+    color: #14183E;
+}
+.book-trip .instruction .value {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -36px;
+}
+
+.book-trip .instruction .value .step-content{
+    margin: -1px 0 4px 19px;
+    padding-bottom: 36px;
+}
+.book-trip .instruction .value .step-content h6{
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.book-trip .instruction .value .step-content p{
+    color: #5E6282;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.book-trip .shadow{
+    width: 354px;
+    height: 367px;
+    position: absolute;
+    right: 309px;
+    top: -41px;
+}
+.book-trip .shadow img{
+    position: absolute;
+    
+
+}
+.book-trip .booking-card{
+    margin: 152px 18px 0 171px;
+    height: 378px;
+    background: #FFF;
+    border-radius: 26px;
+    position: relative;
+    
+}
+
+.book-trip .booking-card .trip-card{
+    position: relative;
+}
+.book-trip .booking-card .trip-card img{
+    margin: 16px;
+    border-radius: 24px;
+}
+.book-trip .booking-card .trip-card h3{
+    margin-left: 16px;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.book-trip .booking-card .trip-card h6{
+    margin: 11px 0 0 16px;
+    color: #84829A;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.book-trip .booking-card .trip-card .progress-section{
+    width: 273px;
+    height: 129px;
+    background: #FFF;
+    position: absolute;
+    right: -111px;
+    bottom: 32px;
+    border-radius: 18px;
+    box-shadow:0 24.15px 21.52px 0 rgb(197 190 190 / 32%)
+}
+.progress-section .progress-header{
+    display: flex;
+    
+
+}
+.progress-section .progress-header img{
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%;
+}
+.progress-section .progress-header .prog-header-text h3{
+    margin-left: -8px;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.progress-section .progress-header .prog-header-text h6{
+    margin-left: -8px;
+    color: #84829A;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.progress-section .progress-text {
+    margin-left:  27%;
+    margin-top: -19px;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.progress-section .progress-text span{
+    color: #84829A;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+
+}
+.booking-card .trip-card .progress-section .progress-bar img{
+    margin: 8px 0 4px  74px
+}
+.book-trip .booking-card .trip-card .option{
+    display:flex;
+}
+.book-trip .booking-card .trip-card .option img{
+    margin-right: -2px;
+}
+.book-trip .booking-card .trip-card .people-going{
+    display: flex;
+    align-items: center;
+}
+.book-trip .booking-card .trip-card .people-going h6{
+    color: #84829A;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin:3px 158px 0 -2px;
+}
+.book-trip .booking-card .trip-card .people-going i{
+    text-align: end;
+    color: #4152CA;
+}
+/* End book trip */
