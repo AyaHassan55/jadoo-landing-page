@@ -16,7 +16,8 @@ body {
     align-items: center;
     padding: 20px 10%;
     position: relative;
-    z-index: 1000;
+    /* z-index: 1000; */
+    z-index: 1;
     font-family: 'Roboto', sans-serif;
 }
 .navbar img{
@@ -602,3 +603,146 @@ body {
     color: #4152CA;
 }
 /* End book trip */
+/* Start testimonials */
+.testimonials{
+    padding-left: 175.55px; 
+    padding-right: 175.55px;
+    margin-top: 300px;
+    background-color: white;
+   
+    display: flex;
+    position: relative;
+    
+}
+.testimonials .left-testi{
+    margin-right: 20px;
+    flex: 1;
+}
+.testimonials .left-testi h6{
+    color: #84829A;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+.testimonials .left-testi h3{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Volkhov';
+    color: #14183E;
+
+}
+.testimonials .left-testi .dots-slider{
+    display: flex;
+        margin-top: 14px;
+    /* justify-content: space-between; */
+}
+.testimonials .left-testi .dots-slider li{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #E5E5E5;
+    margin-top: 50px;
+    margin-right: 19px;
+    list-style: none;
+}
+.testimonials .left-testi .dots-slider .active{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #39425D;
+}
+.testimonials .right-testi{
+    flex: 1.5;
+    width: 669px;
+    height: 356px;
+    position: relative;
+}
+
+.testimonials .right-testi .pagination i{
+    position: absolute;
+    top: 145px;
+    left: 486px;
+}
+.testimonials .right-testi .pagination .fa-angle-up{
+    top: 102px;
+    left: 611px;
+
+    color: #BCB7C2;
+}
+.testimonials .right-testi .pagination .fa-angle-down{
+    top: 143px;
+    left: 611px;
+    color: #5E6282;
+}
+.testimonials .right-testi .info{
+    background-color: white;
+    width: 541px;
+    height: 225px;
+    box-shadow: 0 24.15px 21.52px 0 rgb(197 190 190 / 32%);
+    position: relative;
+    z-index: 3;
+}
+.testimonials .right-testi .info img{
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    position: absolute;
+    top: -29px;
+    left: -34px;  
+}
+.testimonials .right-testi .info p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    color: #5E6282;
+    margin: 27px 144px 50px 45px;
+    line-height: 28px;
+}
+.testimonials .right-testi .info h4{
+    margin-left: 40px;
+    margin-bottom: 10px;
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    line-height: 100%;
+}
+.testimonials .right-testi .info h3{
+    margin-left: 40px;
+    color: #5E6282;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins';
+}
+.testimonials .right-testi .next-info{
+    /* background-color: #b3b5c2; */
+    width: 502px;
+    height: 232px;
+    border: 1px solid #F7F7F7;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 2;
+    top: 88px;
+        left: 81px;
+    overflow: hidden;
+    
+}
+.testimonials .right-testi .next-info h4{
+    margin-left: 40px;
+    margin-top: 170px;
+    margin-bottom: 6px;
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+    line-height: 100%;
+}
+.testimonials .right-testi .next-info h3{
+    margin-left: 40px;
+    color: #5E6282;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins',sans-serif;
+}
+/* End testimonials */
