@@ -5,8 +5,7 @@
 }
 
 body {
-   
-    background-color: #fff;
+    /* background-color: #fff; */
     color: #222;
     height: 100vh;
 }
@@ -178,7 +177,7 @@ body {
     padding-left: 175.55px; 
     padding-right: 175.55px;
     position: relative;
-    z-index: 1001;
+    /* z-index: 1001; */
     
 }
 .services h6{
@@ -213,6 +212,7 @@ body {
 .services .categories .category{
     padding: 24px;
     width: 267px;
+    /* background-color: white; */
     position: relative;
     z-index: 1;  
 } 
@@ -220,8 +220,8 @@ body {
 .services .categories .category:hover {
     padding: 24px;
     width: 267px;
-    background-color: #FFF;
     border-radius: 36px;
+    /* background-color: white; */
     position: relative;
     z-index: 0;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
@@ -238,74 +238,11 @@ body {
     border-top-left-radius: 30px;
     border-bottom-right-radius: 10px;
 } 
- /* .services .categories .category {
-    padding: 24px;
-    width: 267px;
-    position: relative;
-    z-index: 1;
-    background-color: #FFF;
-    border-radius: 0;
-} */
-/* .services .categories .category::before {
-    content: '';
-    position: absolute;
-    top: 183px;
-    left: -24px;
-    width: 100px;
-    height: 100px;
-    background-color: #DF6951;
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 10px;
-    z-index: -10; 
-    opacity: 0;
-    
-} */
 /* .services .categories .category:hover {
     background-color: #FFF;
     border-radius: 36px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-}
-.services .categories .category:hover::before {
-    opacity: 1;
 } */
-/* .services .categories .category {
-    position: relative;
-    padding: 24px;
-    width: 267px;
-    background-color: transparent;
-    border-radius: 0;
-    overflow: hidden; 
-    transition: all 0.3s ease;
-} */
-
-
-/* .services .categories .category::before {
-    content: '';
-    position: absolute;
-    top: 183px;
-    left: -24px;
-    width: 100px;
-    height: 100px;
-    background-color: #DF6951;
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 10px;
-    z-index: 0; 
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-
-.services .categories .category .content {
-    position: relative;
-    z-index: 1;
-}
-
-
-.services .categories .category:hover {
-    background-color: #FFF;
-    border-radius: 36px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-}
 
 
 .services .categories .category:hover::before {
@@ -660,6 +597,8 @@ body {
 }
 
 .testimonials .right-testi .pagination i{
+    width: 12px;
+    height: 12px;
     position: absolute;
     top: 145px;
     left: 486px;
@@ -677,6 +616,7 @@ body {
 }
 .testimonials .right-testi .info{
     background-color: white;
+    border-radius: 10px;
     width: 541px;
     height: 225px;
     box-shadow: 0 24.15px 21.52px 0 rgb(197 190 190 / 32%);
@@ -746,3 +686,40 @@ body {
     font-family: 'Poppins',sans-serif;
 }
 /* End testimonials */
+/* Start logos */
+.logos{
+    padding-left: 175.55px; 
+    padding-right: 175.55px;
+    display: flex;
+    justify-content: space-between;
+    /* color: #333; */
+}
+/* .logos img{
+    color: #222;
+} */
+.logos .logo1{
+    width: 130px;
+    height: 130px;
+
+}
+.logos .logo2{
+    width: 172.85px;
+    height: 125px;
+
+}.logos .logo3{
+    width: 241px;
+    height: 213px;
+
+}.logos .logo4{
+    margin-top: 31px;
+    width: 132px;
+    height: 42px;
+
+}.logos .logo5{
+    margin-left: 41px;
+    margin-top: 37px;
+    width: 94px;
+    height: 21px;
+
+}
+/* End logos */
