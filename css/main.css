@@ -288,7 +288,7 @@ body {
 
 /* start destination */
 .destinations{
-    
+    margin-top: 55px;
     position: relative;
 }
 .destinations h6{
@@ -933,3 +933,297 @@ hr{
 }
 /* responsive */
 
+/* Responsive Design */
+@media (max-width: 991px) {
+.navbar {
+    flex-direction: column;
+    padding: 10px 5%;
+}
+.navbar img{
+    width: 103.7px;
+    height: 30.68px;
+    margin-top: 13px;
+    margin-right: 221px;
+}
+
+.nav-item {
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.nav-item a,
+.nav-item .login,
+.nav-item .signup {
+    margin: 10px 0 0 0;
+}
+
+.hero-content {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 20px;
+    height: auto;
+}
+
+.hero-content .description {
+    padding-left: 0;
+    padding-top: 50px;
+    min-width: 100%;
+}
+.hero-content .description .decore-enjoy ,.elli-decore{
+    display: none;
+}
+.hero-content .description h4{
+    font-size: 14px;
+}
+.hero-content .description p{
+    font-size: 12px;
+}
+.cta .btn-first{
+    width: 117px;
+    height: 48px;
+}
+.hero-content .hero-photo .traveller {
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 0;
+    /* position: absolute;
+    z-index: -1; */
+}
+
+.services {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.services .categories {
+    flex-direction: column;
+    align-items: center;
+}
+.services .stars{
+    display: none;
+}
+.book-trip {
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.book-trip .instruction {
+    max-width: 100%;
+}
+
+.book-trip .booking-card {
+    margin: 50px auto 0 auto;
+}
+.destinations .all-dest{
+    flex-direction: column;
+}
+.destinations .all-dest .dest-decor{
+    display: none;
+}
+.destinations .all-dest .destination img {
+    width: 314px;
+    height: 277px;
+}
+.book-trip .shadow img{
+    position: absolute;
+    top: 473px;
+    left: 271px;
+} 
+.book-trip .booking-card .trip-card .progress-section{
+    right: 41px;
+    bottom: -162px;
+}
+.testimonials {
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.testimonials .right-testi {
+    width: 100%;
+}
+.testimonials .right-testi .info p{
+    margin: 29px 144px 50px 8px;
+    padding-right: 55px;
+    text-align: center;
+} 
+.testimonials .right-testi .info img{
+    top: -68px;
+    left: 40%;
+}
+.testimonials .left-testi .dots-slider{
+        margin-top: -7px;
+    margin-bottom: 61px;
+    margin-left: 13px;
+    align-items: center;
+    justify-content: center;
+}
+.testimonials .right-testi .info{
+    width: 334px;
+}
+.testimonials .right-testi .info p{
+    padding: 0;
+    
+        text-align: center;
+        font-size: 14px;
+        margin-right: 17px;
+}
+.testimonials .right-testi .info h4,
+.testimonials .right-testi .info h3{
+    margin-left: 0;
+    text-align: center;
+        font-size: 16px;
+}
+.subscribe {
+    padding: 0 20px;
+}
+.subscribe h3 {
+    font-size: 24px;
+    padding: 30px 20px 0;
+    line-height: 1.4;
+}
+
+.subscribe .content .subscription-box {
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 10px;
+}
+input[type="email"]{
+    height: 60px;
+        margin-top: -15px;
+
+}
+.subscribe .content .subscription-box  button{
+    height: 60px;
+}
+.logos {
+    margin-top: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0px;
+    padding: 20px;
+}
+.logos .logo1 {
+    width: 100px;
+    height: 126px;
+}
+.logos .logo2 {
+    width: 172.85px;
+    height: 125px;
+}
+.logos .logo3{
+    width: 231px;
+    height: 167px;
+}
+.logos .logo4 {
+    margin-top: 27px;
+    width: 124px;
+    height: 38px;
+}
+.logos .logo5 {
+    /* margin-left: 41px; */
+    margin-top: -20px;
+    /* width: 94px; */
+    height: 21px;
+}
+
+.footer {
+    padding: 0 20px;
+}
+
+.footer .container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: -130px;
+}
+.footer .container .footer-logo h2,
+.footer .container .footer-logo p{
+    text-align: center;
+}
+
+  .footer .container .footer-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .footer .container .footer-social .social-icons a img {
+    width: 35px;
+  }
+}
+
+@media (max-width: 576px) {
+.hero-content .description h1 {
+        margin-top: 44px;
+        font-size: 29px;
+        line-height: 1.2;
+        position: relative;
+        z-index: -1;
+}
+.testimonials .left-testi h3,
+.testimonials .left-testi h6{
+    text-align: center;
+}
+.services h2,
+.destinations h2,
+.book-trip .instruction h2,
+.testimonials .left-testi h3 {
+    font-size: 32px;
+}
+
+.footer .container .footer-logo h2 {
+    font-size: 32px;
+}
+
+.subscribe h3 {
+    font-size: 16px;
+    padding: 45px;
+}
+}
+/* Mobile menu toggle button */
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #333;
+}
+
+/* Hide the checkbox */
+#toggle-menu {
+    display: none;
+}
+
+/* Show burger menu on mobile */
+@media (max-width: 768px) {
+.menu-icon {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    z-index: 1002;
+}
+
+.nav-item {
+    display: none;
+    flex-direction: column;
+    background: white;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    padding: 20px 0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    z-index: 1001;
+}
+
+#toggle-menu:checked ~ .nav-item {
+    display: flex;
+}
+
+.nav-item a,
+.nav-item .login,
+.nav-item .signup {
+    margin: 10px 0;
+    text-align: center;
+}
+}
